@@ -1,11 +1,11 @@
-import Button from "./Button";
+import Button from "./ui/Button";
 
 export default function MainSearch() {
   return (
     <div className="flex bg-[#F3F3F3] items-center text-xs w-full">
       <div className="flex px-3 w-[calc(100%-55px)]">
         <span className="pe-3 w-[100px]">
-          <select className="w-full">
+          <select className="w-[100px]">
             <option value="1">All Categories</option>
             <option value="2">Fruits & Vegetables</option>
             <option value="3">Leafy Greens</option>

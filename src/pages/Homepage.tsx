@@ -1,5 +1,5 @@
 
-import PageHeader from "../components/ui/pageHeader";
+import PageHeader from "../components/pageHeader";
 export default function HomePage() {
   return <PageHeader />;
 }

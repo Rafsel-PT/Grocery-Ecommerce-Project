@@ -2,7 +2,7 @@ import IconWithCount from "./IconWithCount";
 
 export default function HeaderWishListAndCart() {
   return (
-    <div className="flex gap-2 justify-between text-xs ">
+    <div className="flex gap-5 justify-between text-xs ">
       <div className="flex gap-[5px]  items-center ">
         <IconWithCount icon="/icons/heart.svg" count={4} />
         <span className="text-xs">Wishlist </span>
